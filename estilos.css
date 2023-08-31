@@ -273,7 +273,7 @@ label {
   width: 0px;
 }
 input[type="password"] {
-  width: 200px;
+  width: 100px;
 }
 
 /* Ocultar la foto por defecto */
