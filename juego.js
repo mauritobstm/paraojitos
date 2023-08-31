@@ -42,3 +42,14 @@ function comprobarNumero() {
     // Borra el número introducido por el usuario
     entradaNumero.value = "";
 }
+
+
+function checkPassword() {
+  const password = document.getElementById('pass').value;
+  
+  if (password === '09-01') {
+    document.getElementById('photo').style.display = 'block';
+  } else {
+    alert('Contraseña incorrecta');
+  }
+}
