@@ -294,7 +294,7 @@ input[type="password"] {
   margin-right: 15px;
 }
 
-.photo img {
+#photo img {
   width: 100%;
   max-width: 350px;
   height: 300px;
